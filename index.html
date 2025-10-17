@@ -1,112 +1,140 @@
 <!DOCTYPE HTML>
 <!--
-	Paradigm Shift by HTML5 UP
+	Aerial by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Paradigm Shift by HTML5 UP</title>
+		<title>Lets Laugh At</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
 	</head>
 	<body class="is-preload">
+        <div class="main-container">
+            <div class="main-image">
+                <svg 
+                class="cutout"
+                viewbox="0 0 120 120" 
+                preserveAspectRatio="xMidYMid meet">
+                    <defs>
+                        <mask id="hole">
+                            <rect width="100%" height="100%" fill="white"/>
+                            <circle r="50" cx="60" cy="60" fill="black"/>
+                        </mask>
+                    </defs>
+                    <style>
+                        .title-text {
+                            font-family: "League Spartan", sans-serif;
+                            font-optical-sizing: auto;
+                            font-weight: 650;
+                            font-style: normal;
+                            font-size: .8rem;
+                        }
+                        .textbox-group {
+                            opacity: 0;
+                        }
+                        .textbox {
+                            fill: #f4bb2e
+                        }
+                        .textbox-shade {
+                            fill: #b88200
+                        }
+                        .logo-back {
+                            fill: #216dd1
+                        }
+                        .logo-front {
+                            fill: #75a5e5
+                        }
+                    </style>
+                    <rect class="logo-back" width="95%" height="95%"/>
+                    <image 
+                        href="assets/css/images/duck2.png" 
+                        x="-6", y="60",
+                        width="80" height="80" opacity="0"
+                        preserveAspectRatio="xMidYMid meet">
+                        <animate attributeName="opacity"
+                            values="0;1" dur="500ms" fill="freeze"/>
+                        <animate attributeName="y"
+                            values="60;30" dur="500ms" fill="freeze"/>
+                    </image>
+                    <rect class="logo-front" width="100%" height="100%" mask="url(#hole)"/>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+                    <g id="lets" class="textbox-group" transform="rotate(-30,60,40) translate(5,-15)">
+                        <polygon 
+                            class="textbox-shade" 
+                            transform="translate(1,-1)"
+                            points="60,53 98,47.3 98,72.7 60,67"/>
+                        <polygon class="textbox" points="60,53 98,47.3 98,72.7 60,67"/>
+                        <text class="title-text" x="65" y="64.5">LET'S </text>  
+                        <animate attributeName="opacity"
+                            values="0;1" begin="500ms" dur="500ms" fill="freeze"/>
+                    </g>
 
-				<!-- Intro -->
-					<section class="intro">
-						<header>
-							<h1>Paradigm Shift</h1>
-							<p>A free responsive site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> / <a href="https://html5up.net">HTML5 UP</a></p>
-							<ul class="actions">
-								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
-							</ul>
-						</header>
-						<div class="content">
-							<span class="image fill" data-position="center"><img src="images/pic01.jpg" alt="" /></span>
-						</div>
-					</section>
+                    <g id="laugh" class="textbox-group" transform="translate(12, 0)">
+                        <polygon 
+                            class="textbox-shade" 
+                            transform="translate(1,-1)"
+                            points="60,53 105,46.25 105,73.75 60,67"/>
+                        <polygon class="textbox" points="60,53 105,46.25 105,73.75 60,67"/>
+                        <text class="title-text" x="62" y="64.5">LAUGH </text>  
+                        <animate attributeName="opacity"
+                            values="0;1" begin="750ms" dur="500ms" fill="freeze"/>
+                    </g>
 
-				<!-- Section -->
-					<section id="first">
-						<header>
-							<h2>Magna sed nullam nisl adipiscing</h2>
-						</header>
-						<div class="content">
-							<p><strong>Lorem ipsum dolor</strong> sit amet consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum. Magna sed etiam consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et dolor libero, feugiat magna tempus, sed et lorem adipiscing.</p>
-							<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-						</div>
-					</section>
+                    <g id="at" class="textbox-group" transform="rotate(30,60,40) translate(25, 9)">
+                        <polygon 
+                            class="textbox-shade" 
+                            transform="translate(1,-1)"
+                            points="60,53 95,47.75 95,72.25 60,67"/>
+                        <polygon class="textbox" points="60,53 95,47.75 95,72.25 60,67"/>
+                        <text class="title-text" x="65" y="64.5">AT!</text>  
+                        <animate attributeName="opacity"
+                            values="0;1" begin="1000ms" dur="500ms" fill="freeze"/>
+                    </g>
+                </svg>
+            </div>
 
-					<section>
-						<header>
-							<h2>Get in touch</h2>
-						</header>
-						<div class="content">
-							<p><strong>Auctor commodo</strong> interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis.</p>
-							<form>
-								<div class="fields">
-									<div class="field half">
-										<input type="text" name="name" id="name" placeholder="Name" />
-									</div>
-									<div class="field half">
-										<input type="email" name="email" id="email" placeholder="Email" />
-									</div>
-									<div class="field">
-										<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" class="button primary" /></li>
-								</ul>
-							</form>
-						</div>
-						<footer>
-							<ul class="items">
-								<li>
-									<h3>Email</h3>
-									<a href="#">information@untitled.ext</a>
-								</li>
-								<li>
-									<h3>Phone</h3>
-									<a href="#">(000) 000-0000</a>
-								</li>
-								<li>
-									<h3>Address</h3>
-									<span>1234 Somewhere Road, Nashville, TN 00000</span>
-								</li>
-								<li>
-									<h3>Elsewhere</h3>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-										<li><a href="#" class="icon brands fa-codepen"><span class="label">Codepen</span></a></li>
-									</ul>
-								</li>
-							</ul>
-						</footer>
-					</section>
-
-				<!-- Copyright -->
-					<div class="copyright">&copy; Untitled. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
+            <div class="info-container">
+                <div class="lead-text"> 
+                    <h1>WE PRODUCE FUNNY SHOWS IN PITTSBURGH, PA</h1>
+                </div>
+                <nav class="main-nav">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="https://www.tixtree.com/o/lets-laugh-at-4e6eca67bb0a">
+                                <div>
+                                    <img class="img-link" src="assets/images/calendar.svg" alt="Event Calendar">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/lets_laugh_at/">
+                                <img class="img-link" src="assets/images/insta.svg" alt="Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:letslaughatemail@gmail.com">
+                                <img class="img-link" src="assets/images/email.svg" alt="Email">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="lead-text"> 
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdtQPLPDMWWtCtoU7BMz5uW9owIIf-AUJs-aPMpLDSubHp9AA/viewform?usp=sharing&ouid=107355199700472039680">
+                        <h2>SUBMIT AN ACT</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
 	</body>
 </html>
