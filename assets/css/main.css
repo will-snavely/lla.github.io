@@ -23,8 +23,7 @@ section, summary, time, mark, audio, video {
 }
 
 .cutout {
-    width: 100vw;
-    height: 100vw;
+    width: 80vw;
     max-width: 65vh;
     max-height: 65vh;
 }
