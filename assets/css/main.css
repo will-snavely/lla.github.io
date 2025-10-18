@@ -25,6 +25,7 @@ section, summary, time, mark, audio, video {
     max-width: 50vh;
     max-height: 50vh;
     padding-bottom: 5px;
+    padding-top: 20px;
 }
 
 #main-container {
