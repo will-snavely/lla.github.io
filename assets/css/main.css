@@ -15,6 +15,20 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+body {
+    background-color: #75a5e5;
+}
+
+#main-container {
+    display: flex;
+    margin: 0 auto; 
+    flex-direction: column;
+    align-items: center;    /* Vertically centers content */
+    height: 100vh; /* Example: full viewport height for parent */
+    width: 100vw;
+    max-width: 600px;
+}
+
 .main-image {
     background-color: #75a5e5;
 }
@@ -28,16 +42,6 @@ section, summary, time, mark, audio, video {
     padding-top: 20px;
 }
 
-#main-container {
-    display: flex;
-    margin: 0 auto; 
-    flex-direction: column;
-    align-items: center;    /* Vertically centers content */
-    height: 100vh; /* Example: full viewport height for parent */
-    width: 100vw;
-    max-width: 600px;
-}
-
 .lead-text {
     font-family: "League Spartan", sans-serif;
     font-optical-sizing: auto;
@@ -48,10 +52,6 @@ section, summary, time, mark, audio, video {
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
-}
-
-body {
-    background-color: #75a5e5;
 }
 
 .main-nav {
@@ -70,6 +70,27 @@ body {
     max-width: 550px;
     margin: 0 auto;
     height: auto;
+}
+
+#nav-container .nav-list {
+    position: absolute;
+    top: 20%; /* Example: Start 50% from the top */
+    left: 50%; /* Example: Start 50% from the left */
+    transform: translate(-50%, -50%);
+    
+    list-style-type: none; /* Removes bullets */
+    margin: 0;           /* Removes default margin */
+    padding: 0;          /* Removes default padding */
+    display: flex;       /* Enables Flexbox */
+    flex-direction: row; /* Arranges items horizontally */
+    gap: 20px;           /* Adds spacing between items (adjust as needed) */
+}
+
+#nav-container .img-link {
+    width: 14vw;
+    height: auto;
+    max-width: 80px;
+    max-height: 80px;
 }
 
 #submit-container {
@@ -92,25 +113,4 @@ body {
     font-style: normal;
     font-size: 1.5rem;
     text-align: center;
-}
-
-.nav-list {
-    position: absolute;
-    top: 20%; /* Example: Start 50% from the top */
-    left: 50%; /* Example: Start 50% from the left */
-    transform: translate(-50%, -50%);
-    
-    list-style-type: none; /* Removes bullets */
-    margin: 0;           /* Removes default margin */
-    padding: 0;          /* Removes default padding */
-    display: flex;       /* Enables Flexbox */
-    flex-direction: row; /* Arranges items horizontally */
-    gap: 20px;           /* Adds spacing between items (adjust as needed) */
-}
-
-.img-link {
-    width: 14vw;
-    height: auto;
-    max-width: 80px;
-    max-height: 80px;
 }
