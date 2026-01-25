@@ -33,18 +33,22 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Create dist directory
+        run: mkdir -p dist
+      - name: Copy Assets
+        run: cp index.html dist && cp -r assets dist/
       - name: Generate Events Page
         uses: cuchi/jinja2-action@v1.3.0
         with:
           template: templates/events.html.jinja    
-          output_file: events.html
+          output_file: dist/events.html
           data_file: events.yaml
           data_format: yaml
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: '.'
+          path: 'dist/'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
