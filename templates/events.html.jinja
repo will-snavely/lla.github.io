@@ -25,6 +25,17 @@
             <div class="event-content">
               <div class="event-title-section">
                 <h2 class="event-title">{{ event.title }}</h2>
+                {% if event.social_link %}
+                <span class="social-link">
+                  <a href="{{event.social_link}}">
+                    {% if "instagram" in event.social_link.lower() %}
+                    <img src="assets/images/ig.svg" alt="Instagram Link" class="social-icon ig"> 
+                    {% else %}
+                    <img src="assets/images/web.svg" alt="Social Link" class="social-icon web"> 
+                    {% endif %}
+                  </a>
+                </span>
+                {% endif %}
               </div>
             
               <p class="event-description">
