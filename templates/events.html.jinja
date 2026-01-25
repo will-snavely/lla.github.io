@@ -34,25 +34,28 @@
               <div class="event-bottom">
                 <div class="event-details">
                   <span class="event-detail event-date-listing">
-                    <span class="event-label">Date:</span> 
+                    <span class="event-label">Date:</span>
                     <span class="event-date event-data">{{ event.date }}</span>
                   </span>
                   <span class="event-detail event-doors-listing">
-                    <span class="event-label">Doors:</span> 
+                    <span class="event-label">Doors:</span>
                     <span class="event-doors event-data">{{ event.door_time }}</span>
                   </span>
                   <span class="event-detail event-show-listing">
-                    <span class="event-label">Show:</span> 
+                    <span class="event-label">Show:</span>
                     <span class="event-show event-data">{{ event.show_time }}</span>
                   </span>
                   <span class="event-detail event-price-listing">
-                    <span class="event-label">Price:</span> 
+                    <span class="event-label">Price:</span>
                     <span class="event-price event-data">{{ event.price }}</span>
                   </span>
                 </div>
-              
                 {% if event.ticket_link %}
-                <a href="#" class="ticket-button">GET TICKETS HERE</a>
+                  {% if event.ticket_link.strip().lower() == "free" %}
+                  <a href="#" class="ticket-button disabled-link">FREE EVENT!</a>
+                  {% else %}
+                  <a href="{{ event.ticket_link }}" class="ticket-button">GET TICKETS</a>
+                  {% endif %}
                 {% else %}
                 <a href="#" class="ticket-button disabled-link">TICKETS ON SALE SOON!</a>
                 {% endif %}
