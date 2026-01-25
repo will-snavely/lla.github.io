@@ -45,6 +45,16 @@
                     <span class="event-label">Show:</span>
                     <span class="event-show event-data">{{ event.show_time }}</span>
                   </span>
+                  <span class="event-detail event-location">
+                    <span class="event-label">At:</span>
+                    <span class="event-location event-data">
+                      {% if event.location_link %}
+                      <a href="{{ event.location_link }}">{{ event.location }}</a>
+                      {% else %}
+                      {{ event.location }}
+                      {% endif %}
+                    </span>
+                  </span>
                   <span class="event-detail event-price-listing">
                     <span class="event-label">Price:</span>
                     <span class="event-price event-data">{{ event.price }}</span>
