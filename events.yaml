@@ -1,0 +1,16 @@
+---
+events:
+  - image: "assets/images/feb26_promo.webp"
+    alt: >
+      Fool Moon, an improv comedy show on Feb 26, 2026, 
+      at 7:30 PM, at the Glitterbox Theater in 
+      Pittsburgh, PA
+    title: FOOL MOON
+    description: >
+        Watch our team of improvisers tell the story of a village 
+        preyed upon by Werewolves, inspired by your suggestions!
+    date: "Aug 15, 2026"
+    door_time: "7:00 PM"
+    show_time: "7:30 PM"
+    price: "$10"
+    ticket_link: ''

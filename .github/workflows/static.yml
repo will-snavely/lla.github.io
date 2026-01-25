@@ -33,6 +33,13 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Generate Events Page
+        uses: cuchi/jinja2-action@v1.3.0
+        with:
+          template: templates/events.html.jinja    
+          output_file: events.html
+          data_file: events.yaml
+          data_format: yaml
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

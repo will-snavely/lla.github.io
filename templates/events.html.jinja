@@ -1,0 +1,72 @@
+<html lang="en">
+  <head>
+    <title>Lets Laugh At</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes"/>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  </head>
+  <body class="is-preload">
+    <a href="/" class="home-button" aria-label="Return Home">
+      <img src="assets/images/logo_small.webp" alt="Home" class="home-icon">
+    </a>
+    <div id="main-event-container">
+      <main>
+        <div class="header-text"> 
+          <h1><u>UPCOMING SHOWS</u></h1>
+        </div>
+        <div class="event-container">
+          {% for event in events %}
+          <article class="event-card">
+            <img src="{{ event.image }}" alt="{{ event.alt }}" class="event-image">
+            <div class="event-content">
+              <div class="event-title-section">
+                <h2 class="event-title">{{ event.title }}</h2>
+              </div>
+            
+              <p class="event-description">
+                {{ event.description }}
+              </p>
+            
+              <div class="event-bottom">
+                <div class="event-details">
+                  <span class="event-detail event-date-listing">
+                    <span class="event-label">Date:</span> 
+                    <span class="event-date event-data">{{ event.date }}</span>
+                  </span>
+                  <span class="event-detail event-doors-listing">
+                    <span class="event-label">Doors:</span> 
+                    <span class="event-doors event-data">{{ event.door_time }}</span>
+                  </span>
+                  <span class="event-detail event-show-listing">
+                    <span class="event-label">Show:</span> 
+                    <span class="event-show event-data">{{ event.show_time }}</span>
+                  </span>
+                  <span class="event-detail event-price-listing">
+                    <span class="event-label">Price:</span> 
+                    <span class="event-price event-data">{{ event.price }}</span>
+                  </span>
+                </div>
+              
+                {% if event.ticket_link %}
+                <a href="#" class="ticket-button">GET TICKETS HERE</a>
+                {% else %}
+                <a href="#" class="ticket-button disabled-link">TICKETS ON SALE SOON!</a>
+                {% endif %}
+              </div>
+            </div>
+          </article>
+          {% endfor %}
+        </div>
+      </main>
+    </div>
+    <script>
+      window.onload = function() { document.body.classList.remove('is-preload'); }
+      window.ontouchmove = function() { return false; }
+      window.onorientationchange = function() { document.body.scrollTop = 0; }
+    </script>
+  </body>
+</html>
