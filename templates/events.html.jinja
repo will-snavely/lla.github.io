@@ -72,14 +72,16 @@
                   </span>
                 </div>
                 {% if event.ticket_link %}
-                  {% if event.ticket_link.strip().lower() == "free" %}
-                  <a href="#" class="ticket-button disabled-link">FREE EVENT!</a>
-                  {% else %}
-                  <a href="{{ event.ticket_link }}" class="ticket-button">GET TICKETS</a>
-                  {% endif %}
+                <a href="{{ event.ticket_link }}" class="ticket-button">
                 {% else %}
-                <a href="#" class="ticket-button disabled-link">TICKETS ON SALE SOON!</a>
+                <a href="#" class="ticket-button disabled-link">
                 {% endif %}
+                {% if event.custom_ticket_text %}
+                {{ event.custom_ticket_text }}
+                {% else %}
+                GET TICKETS
+                {% endif %}
+                </a>
               </div>
             </div>
           </article>
