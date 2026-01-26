@@ -135,6 +135,10 @@ body {
     max-width: 1200px;
 }
 
+#main-event-container main {
+    margin-bottom: 20px;
+}
+
 .event-container {
   font: 1rem "Open Sans", sans-serif;
   display: flex;
