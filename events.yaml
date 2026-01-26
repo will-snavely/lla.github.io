@@ -9,9 +9,9 @@ events:
     show_time: Show 1
     price: Price 1
     ticket_link: https://www.example.com/ticket1
-    location: Location 1
-    location_link: https://www.example.com/location1
-    social_link: https://www.example.com/social1
+    location: 
+    location_link: Location 1
+    social_link: https://www.example.com/location1
   - title: Test with IG
     image: assets/images/2.jpg
     alt: Alt 2
@@ -21,9 +21,9 @@ events:
     show_time: Show 2
     price: Price 2
     ticket_link: https://www.example.com/ticket2
-    location: Location 2
-    location_link: https://www.example.com/location2
-    social_link: https://www.instagram.com/lets_laugh_at/
+    location: Custom Text!
+    location_link: Location 2
+    social_link: https://www.example.com/location2
   - title: Test No Social
     image: assets/images/3.jpg
     alt: Alt 3
@@ -33,9 +33,9 @@ events:
     show_time: Show 3
     price: Price 3
     ticket_link: https://www.example.com/ticket3
-    location: Location 3
-    location_link: https://www.example.com/location3
-    social_link: 
+    location: 
+    location_link: Location 3
+    social_link: https://www.example.com/location3
   - title: Test No Ticket
     image: assets/images/4.jpg
     alt: Alt 4
@@ -45,9 +45,9 @@ events:
     show_time: Show 4
     price: Price 4
     ticket_link: 
-    location: Location 4
-    location_link: https://www.example.com/location4
-    social_link: https://www.example.com/social4
+    location: 
+    location_link: Location 4
+    social_link: https://www.example.com/location4
   - title: Test Free Ticket
     image: assets/images/5.jpg
     alt: Alt 5
@@ -56,7 +56,7 @@ events:
     door_time: Door 5
     show_time: Show 5
     price: Price 5
-    ticket_link: free
-    location: Location 5
-    location_link: https://www.example.com/location5
-    social_link: https://www.example.com/social5
+    ticket_link: 
+    location: Free Event!
+    location_link: Location 5
+    social_link: https://www.example.com/location5
