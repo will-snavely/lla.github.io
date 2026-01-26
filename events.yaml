@@ -1,15 +1,67 @@
 ---
 events:
-  - title: FOOL MOON
-    image: assets/images/feb26-promo.webp
-    alt: Fool Moon, an improv comedy show on Feb 26, 2026, at 7:30 PM, at the Glitterbox Theater in Pittsburgh, PA
-    description: Watch our team of improvisers tell the story of a village preyed upon by Werewolves, inspired by your suggestions!
-    date: Feb 26, 2026
-    door_time: 7:00 PM
-    show_time: 7:30 PM
-    price: $10
+  - title: Test with all
+    image: assets/images/1.jpg
+    alt: Alt 1
+    description: Description 1
+    date: Date 1
+    door_time: Door 1
+    show_time: Show 1
+    price: Price 1
+    ticket_link: https://www.example.com/ticket1
+    custom_ticket_text: 
+    location: Location 1
+    location_link: https://www.example.com/location1
+    social_link: https://www.example.com/social1
+  - title: Test with IG
+    image: assets/images/2.jpg
+    alt: Alt 2
+    description: Description 2
+    date: Date 2
+    door_time: Door 2
+    show_time: Show 2
+    price: Price 2
+    ticket_link: https://www.example.com/ticket2
+    custom_ticket_text: Custom Text!
+    location: Location 2
+    location_link: https://www.example.com/location2
+    social_link: https://www.instagram.com/lets_laugh_at/
+  - title: Test No Social
+    image: assets/images/3.jpg
+    alt: Alt 3
+    description: Description 3
+    date: Date 3
+    door_time: Door 3
+    show_time: Show 3
+    price: Price 3
+    ticket_link: https://www.example.com/ticket3
+    custom_ticket_text: 
+    location: Location 3
+    location_link: https://www.example.com/location3
+    social_link: 
+  - title: Test No Ticket
+    image: assets/images/4.jpg
+    alt: Alt 4
+    description: Description 4
+    date: Date 4
+    door_time: Door 4
+    show_time: Show 4
+    price: Price 4
     ticket_link: 
     custom_ticket_text: 
-    location: Glitterbox
-    location_link: https://maps.app.goo.gl/JTy8CjP83eDNnTRQA
-    social_link: https://www.instagram.com/foolmoonimprov/
+    location: Location 4
+    location_link: https://www.example.com/location4
+    social_link: https://www.example.com/social4
+  - title: Test Free Ticket
+    image: assets/images/5.jpg
+    alt: Alt 5
+    description: Description 5
+    date: Date 5
+    door_time: Door 5
+    show_time: Show 5
+    price: Price 5
+    ticket_link: 
+    custom_ticket_text: Free Event!
+    location: Location 5
+    location_link: https://www.example.com/location5
+    social_link: https://www.example.com/social5
