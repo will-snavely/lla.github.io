@@ -213,7 +213,7 @@ body {
   display: inline-block; 
   padding: 0.4em 1.2em;
   border-radius: 999px;
-  background-color: #efb31c;
+  background-color: #b1b8c2; 
   font-size: 0.875rem;
   font-weight: 500;
   line-height: 1;
@@ -242,7 +242,7 @@ body {
   pointer-events: none;
   cursor: default;   
   text-decoration: none;
-  background-color: lightgray;
+  background-color: #b1b8c2;
 }
 
 .home-icon {
