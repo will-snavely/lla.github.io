@@ -1,5 +1,6 @@
 ---
 events:
+  - title: Test with All
     image: assets/images/1.jpg
     alt: Alt 1
     description: Description 1
