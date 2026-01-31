@@ -20,7 +20,7 @@ events:
     date: "Feb 15, 2026"
     door_time: "6:30 PM"
     show_time: "7:00 PM"
-    price: "Show: $10 Jam: Free!"
+    price: "Show: $10 | Jam: Free!"
     ticket_link: https://www.simpletix.com/e/let-s-laugh-at-comedy-show-jam-tickets-257281
     custom_ticket_text: ""
     location: "Glitterbox"
