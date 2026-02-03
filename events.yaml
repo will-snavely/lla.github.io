@@ -2,27 +2,27 @@
 events:
   - title: FOOL MOON
     image: assets/images/feb26-promo.webp
-    alt: Fool Moon, an improv comedy show on Feb 28, 2026, at 7:30 PM, at the Glitterbox Theater in Pittsburgh, PA
-    description: Watch our team of improvisers tell the story of a village preyed upon by Werewolves, inspired by your suggestions!
-    date: Feb 28, 2026
-    door_time: 7:00 PM
-    show_time: 7:30 PM
-    price: $10
+    alt: "Fool Moon, an improv comedy show on Feb 28, 2026, at 7:30 PM, at the Glitterbox Theater in Pittsburgh, PA"
+    description: "Watch our team of improvisers tell the story of a village preyed upon by Werewolves, inspired by your suggestions!"
+    date: "Feb 28, 2026"
+    door_time: "7:00 PM"
+    show_time: "7:30 PM"
+    price: "$10"
     ticket_link: https://www.simpletix.com/e/fool-moon-tickets-257285
-    custom_ticket_text: 
-    location: Glitterbox
+    custom_ticket_text: ""
+    location: "Glitterbox"
     location_link: https://maps.app.goo.gl/JTy8CjP83eDNnTRQA
     social_link: https://www.instagram.com/foolmoonimprov/
   - title: Comedy Show & Jam
     image: assets/images/feb15.webp
-    alt: Comedy Show and Jam on February 15, 2026, at the Glitterbox Theater in Pittsburgh, PA. Doors at 6:30PM, show at 7PM.
-    description: Watch two amazing longform improv teams--Pot Roast and Trees--then stay for a free improv jam at 8:30PM!
-    date: Feb 15, 2026
-    door_time: 6:30 PM
-    show_time: 7:00 PM
-    price: Show: $10 Jam: Free!
+    alt: "Comedy Show and Jam on February 15, 2026, at the Glitterbox Theater in Pittsburgh, PA. Doors at 6:30PM, show at 7PM."
+    description: "Watch two amazing longform improv teams--Pot Roast and Trees--then stay for a free improv jam at 8:30PM!"
+    date: "Feb 15, 2026"
+    door_time: "6:30 PM"
+    show_time: "7:00 PM"
+    price: "Show: $10 Jam: Free!"
     ticket_link: https://www.simpletix.com/e/let-s-laugh-at-comedy-show-jam-tickets-257281
-    custom_ticket_text: 
-    location: Glitterbox
+    custom_ticket_text: ""
+    location: "Glitterbox"
     location_link: https://maps.app.goo.gl/JTy8CjP83eDNnTRQA
     social_link: 
