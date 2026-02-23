@@ -13,3 +13,16 @@ events:
     location: "Glitterbox"
     location_link: https://maps.app.goo.gl/JTy8CjP83eDNnTRQA
     social_link: https://www.instagram.com/foolmoonimprov/
+  - title: An Improv Show! (tm)
+    image: assets/images/march-7th-banner-generic.png
+    alt: ""
+    description: "Anthony's Apple will be making up musicals, while the Morning Bandits rangle up some made up hoots and hollers just for you! "
+    date: "Mar 7th, 2026"
+    door_time: "7:00 PM"
+    show_time: "7:30 PM"
+    price: "$10"
+    ticket_link: 
+    custom_ticket_text: ""
+    location: ""
+    location_link: 
+    social_link: 
