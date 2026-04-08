@@ -1,15 +1,15 @@
 ---
 events:
-  - title: An Improv Show! (tm)
-    image: assets/images/lets-laugh-at-presents.png
+  - title: Junkman's Trash House
+    image: assets/images/junkman.png
     alt: ""
-    description: "Anthony's Apple will be making up musicals, while the Morning Bandits rangle up some made up hoots and hollers just for you! "
-    date: "Mar 7th, 2026"
-    door_time: "7:00 PM"
-    show_time: "7:30 PM"
+    description: "Step right up and laugh out loud under the big top! Grab your tickets and prepare for an unforgettable comedy circus where anything can happen."
+    date: "Sat May 02 2026 00:00:00 GMT-0400 (Eastern Daylight Time)"
+    door_time: "7pm"
+    show_time: "730pm"
     price: "$10"
-    ticket_link: https://www.simpletix.com/e/let-s-laugh-at-an-improv-show-tickets-262654
+    ticket_link: https://www.simpletix.com/e/let-s-laugh-at-junkman-s-trash-house-tickets-263840
     custom_ticket_text: ""
-    location: "Glitterbox"
-    location_link: https://maps.app.goo.gl/JTy8CjP83eDNnTRQA
+    location: "Glitterbox Theater"
+    location_link: https://maps.app.goo.gl/bNnUHkPQZRg9Bqyn6
     social_link: 
