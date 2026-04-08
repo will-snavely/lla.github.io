@@ -4,12 +4,12 @@ events:
     image: assets/images/junkman.png
     alt: ""
     description: "Step right up and laugh out loud under the big top! Grab your tickets and prepare for an unforgettable comedy circus where anything can happen."
-    date: "Sat May 02 2026 00:00:00 GMT-0400 (Eastern Daylight Time)"
+    date: "May 2nd, 2026"
     door_time: "7pm"
     show_time: "730pm"
     price: "$10"
     ticket_link: https://www.simpletix.com/e/let-s-laugh-at-junkman-s-trash-house-tickets-263840
     custom_ticket_text: ""
-    location: "Glitterbox Theater"
-    location_link: https://maps.app.goo.gl/bNnUHkPQZRg9Bqyn6
+    location: ""
+    location_link: 
     social_link: 
