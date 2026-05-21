@@ -1,15 +1,15 @@
 ---
 events:
-  - title: Junkman's Trash House
-    image: assets/images/junkman.png
+  - title: Nerd Out Night
+    image: assets/images/beige-pink-retro-game-arcade-poster-20260428-142128-0000.jpg
     alt: ""
-    description: "Step right up and laugh out loud under the big top! Grab your tickets and prepare for an unforgettable comedy circus where anything can happen."
-    date: "May 2nd, 2026"
+    description: "A show by nerds for nerds to nerd out about nerdy things. A beautiful blend of longform, mid form, and short form improv, partially scripted characters and music."
+    date: "5/29/2026"
     door_time: "7pm"
     show_time: "730pm"
     price: "$10"
-    ticket_link: https://www.simpletix.com/e/let-s-laugh-at-junkman-s-trash-house-tickets-263840
+    ticket_link: https://www.simpletix.com/e/let-s-laugh-at-nerd-out-night-tickets-275637
     custom_ticket_text: ""
     location: "The Glitterbox Theater"
-    location_link: https://maps.app.goo.gl/bNnUHkPQZRg9Bqyn6
+    location_link: https://maps.app.goo.gl/LjGRmErTvEneRhRB9
     social_link: 
