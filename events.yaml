@@ -4,7 +4,7 @@ events:
     image: assets/images/classicimprov.png
     alt: ""
     description: "Have you ever wanted to watch an improv show? Trees, Hostile Makeover, and Horse World will make things up that make you laugh! Classic."
-    date: "5/29/2026"
+    date: "6/5/2026"
     door_time: "7pm"
     show_time: "730pm"
     price: "$10"
