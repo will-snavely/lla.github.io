@@ -1,14 +1,14 @@
 ---
 events:
-  - title: Nerd Out Night
-    image: assets/images/beige-pink-retro-game-arcade-poster-20260428-142128-0000.jpg
+  - title: A Classic Improv Show
+    image: assets/images/classicimprov.png
     alt: ""
-    description: "A show by nerds for nerds to nerd out about nerdy things. A beautiful blend of longform, mid form, and short form improv, partially scripted characters and music."
+    description: "Have you ever wanted to watch an improv show? Trees, Hostile Makeover, and Horse World will make things up that make you laugh! Classic."
     date: "5/29/2026"
     door_time: "7pm"
     show_time: "730pm"
     price: "$10"
-    ticket_link: https://www.simpletix.com/e/let-s-laugh-at-nerd-out-night-tickets-275637
+    ticket_link: https://www.simpletix.com/e/let-s-laugh-at-a-classic-improv-show-tickets-278135
     custom_ticket_text: ""
     location: "The Glitterbox Theater"
     location_link: https://maps.app.goo.gl/LjGRmErTvEneRhRB9
