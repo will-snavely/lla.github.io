@@ -1,15 +1,31 @@
 ---
 events:
-  - title: A Classic Improv Show
-    image: assets/images/classicimprov.png
+  - title: Kevin's Garage
+    image: assets/images/keving.png
     alt: ""
-    description: "Have you ever wanted to watch an improv show? Trees, Hostile Makeover, and Horse World will make things up that make you laugh! Classic."
-    date: "6/6/2026"
+    description: "Kevin's Garage mixes short and long form improv to provide a whole lot of laughs.
+
+"
+    date: "07/11/2026"
     door_time: "7pm"
     show_time: "730pm"
-    price: "$10"
-    ticket_link: https://www.simpletix.com/e/let-s-laugh-at-a-classic-improv-show-tickets-278135
+    price: "$15"
+    ticket_link: https://www.simpletix.com/e/let-s-laugh-at-kevin-s-garage-tickets-278151
     custom_ticket_text: ""
     location: "The Glitterbox Theater"
     location_link: https://maps.app.goo.gl/LjGRmErTvEneRhRB9
-    social_link: 
+    social_link: https://www.instagram.com/kevinsgarageimprov/
+  - title: Fool Moon
+    image: assets/images/foolmoon.tiff
+    alt: ""
+    description: "A comedic improvised performance of the social deduction game werewolf. A night that will have you HOWLING with laughter… Let's Laugh At is bringing back Fool Moon! With some new tricks, the fang gang strikes again.
+"
+    date: "08/01/2026"
+    door_time: "7pm"
+    show_time: "730pm"
+    price: "$15"
+    ticket_link: https://www.simpletix.com/e/let-s-laugh-at-fool-moon-tickets-278290
+    custom_ticket_text: ""
+    location: "The Glitterbox Theater"
+    location_link: https://maps.app.goo.gl/LjGRmErTvEneRhRB9
+    social_link: https://www.instagram.com/foolmoonimprov/
