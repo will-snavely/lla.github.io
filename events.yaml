@@ -1,31 +1,16 @@
 ---
 events:
-  - title: Kevin's Garage
-    image: assets/images/kg-nh.png
+  - title: Let's Laugh At Halloween
+    image: assets/images/halloween-instagram-post-45.png
     alt: ""
-    description: "Join Kevin’s Garage for The Neighborhoodlums: an improvised play based on your suggestions! ⭐️ 
-Featuring Pittsburgh indie teams @strawberry.milkshake.improv and Natural Redheads! 
+    description: "A surrealist "horror" comedy show with sketches by Andrew Lotz and Arianne Joson, drag by Borfungus, short form improv and more to come. There will also be vendors for everyone who wants to shop for Halloween wares.
 "
-    date: "07/11/2026"
+    date: "10/10/2026"
     door_time: "7pm"
     show_time: "730pm"
     price: "$15"
-    ticket_link: https://www.simpletix.com/e/let-s-laugh-at-kevin-s-garage-tickets-278151
+    ticket_link: https://www.simpletix.com/e/let-s-laugh-at-halloween-tickets-294079
     custom_ticket_text: ""
     location: "The Glitterbox Theater"
     location_link: https://maps.app.goo.gl/LjGRmErTvEneRhRB9
-    social_link: https://www.instagram.com/kevinsgarageimprov/
-  - title: Fool Moon
-    image: assets/images/foolmoon.png
-    alt: ""
-    description: "A comedic improvised performance of the social deduction game werewolf. A night that will have you HOWLING with laughter… Let's Laugh At is bringing back Fool Moon! With some new tricks, the fang gang strikes again.
-"
-    date: "08/01/2026"
-    door_time: "7pm"
-    show_time: "730pm"
-    price: "$15"
-    ticket_link: https://www.simpletix.com/e/let-s-laugh-at-fool-moon-tickets-278290
-    custom_ticket_text: ""
-    location: "The Glitterbox Theater"
-    location_link: https://maps.app.goo.gl/LjGRmErTvEneRhRB9
-    social_link: https://www.instagram.com/foolmoonimprov/
+    social_link: 
