@@ -1,10 +1,9 @@
 ---
 events:
-  - title: Let's Laugh At Halloween
+  - title: "Let's Laugh At Halloween"
     image: assets/images/halloween-instagram-post-45.png
     alt: ""
-    description: "A surrealist "horror" comedy show with sketches by Andrew Lotz and Arianne Joson, drag by Borfungus, short form improv and more to come. There will also be vendors for everyone who wants to shop for Halloween wares.
-"
+    description: "A surrealist 'horror' comedy show with sketches by Andrew Lotz and Arianne Joson, drag by Borfungus, short form improv and more to come. There will also be vendors for everyone who wants to shop for Halloween wares."
     date: "10/10/2026"
     door_time: "7pm"
     show_time: "730pm"
